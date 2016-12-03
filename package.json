@@ -4,11 +4,14 @@
   "description": "site pessoal da silvia silveira",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "bower": "bower",
+    "nodesass": "node-sass"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "bower": "^1.8.0"
+    "bower": "^1.8.0",
+    "node-sass": "^3.13.0"
   }
 }
