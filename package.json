@@ -12,8 +12,7 @@
     "gulp": "gulp"
   },
   "dependencies": {
-    "bootstrap": "^3.3.7",
-    "font-awesome": "^4.7.0"
+    "bootstrap": "^3.3.7"
   },
   "author": "",
   "license": "ISC",
@@ -26,6 +25,7 @@
     "gulp-cssnano": "^2.1.2",
     "gulp-file-include": "^1.1.0",
     "gulp-imagemin": "^3.3.0",
+    "gulp-rename": "^1.2.2",
     "gulp-sass": "^3.0.0",
     "gulp-uglify": "^3.0.0",
     "gulp-uncss": "^1.0.6"

@@ -30,6 +30,9 @@ h1 {
 img {
   border: 0;
 }
+svg:not(:root) {
+  overflow: hidden;
+}
 hr {
   height: 0;
   -webkit-box-sizing: content-box;
@@ -204,6 +207,9 @@ p {
 }
 .text-center {
   text-align: center;
+}
+.text-muted {
+  color: #777;
 }
 ul {
   margin-top: 0;
