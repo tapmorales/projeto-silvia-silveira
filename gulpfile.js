@@ -11,7 +11,7 @@ var gulp    = require('gulp')
     , rename = require('gulp-rename')
     , browserSync = require('browser-sync');
 
-
+/* novo comentario */
 gulp.task('clean', function(){
     return gulp.src('dist')
         .pipe(clean());
