@@ -8,6 +8,7 @@
     "start": "echo startando",
     "prestart": "echo prestart",
     "poststart": "echo post start",
+    "preinstall": "mkdirp src/components/bootstrap/ src/components/font-awesome/",
     "postinstall": "cp -r node_modules/bootstrap/dist src/components/bootstrap/ && cp -r node_modules/font-awesome/css src/components/font-awesome/ && cp -r node_modules/font-awesome/fonts src/components/font-awesome/",
     "gulp": "gulp"
   },
@@ -28,6 +29,7 @@
     "gulp-rename": "^1.2.2",
     "gulp-sass": "^3.0.0",
     "gulp-uglify": "^3.0.0",
-    "gulp-uncss": "^1.0.6"
+    "gulp-uncss": "^1.0.6",
+    "mkdirp": "^0.5.1"
   }
 }
